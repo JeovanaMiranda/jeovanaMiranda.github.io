@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;600&family=Castoro+Titling&family=Caveat:wght@500&family=Montserrat:wght@200&family=Quicksand&family=Roboto+Mono:wght@300&family=Sofia+Sans+Condensed:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+.group1{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height:9vh;
+    background-color: #4439af;
+    color: white;
+    padding-left: 35px;
+}
+.logo{
+    width: 80%;
+}
+.topicos{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    
+}
+.p-topico{
+    font-size: 12pt;
+}
+#logoIF{
+    width: 120px;
+    border-radius: 5px;
+}
+.top {  
+  display: flex;
+  height: 60vh;
+  padding: 0px;
+  color: #fff;
+  text-align: center;
+  box-sizing: content-box;
+  background-image: linear-gradient(to bottom, #4439af,#3f27a8, #1e0657 );
+}
+.left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    width: 50%;
+    height: auto;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+.titulo{
+    display: flex;
+    font-size: 20pt;
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+.text{
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+}
+.right{
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+    height: auto;
+    background-color: transparent;
+   
+}
+#computer{
+  width: 90%;
+    
+}
+.section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 0;
+  height: auto;
+  color: #fff;
+  text-align: center;
+  background-color:transparent;
+}
+p{
+    font-size: 14pt;
+}
+h3{
+    font-size: 14pt;
+}
+.conhecer_cursos{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    padding-left: 20px;
+    font-size: 16pt;
+    color: rgb(77, 77, 77);
+    font-family: 'Playfair Display', serif;
+}
+span{
+    font-weight: bold;
+}
+.alunos{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    background-color: transparent;
+}
+.coluna1{
+    display: flex;
+    width: 50%;
+    padding-right: 13px;
+    background-color: transparent;
+}
+.coluna2{
+    display: flex;
+    width: 50%;
+    padding-left: 13px;
+    background-color: transparent;
+}
+.area_curso{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(184, 184, 184, 0.288);
+    border-radius: 8px;
+    color: #292f3b;
+    box-shadow: 2px 2px 5PX 2px  rgba(0, 0, 0, 0.199);
+}
+.area_curso:hover{
+    background-color: #0555eb54;
+}
+.descricao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    font-family: 'Playfair Display', serif;
+    
+}
+.img{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    background-color: transparent; 
+}
+
+.imagem_cursos{
+    width: 50%;
+    border-radius: 50px;
+}
+.parte1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    border-bottom: 1px solid #0555eb;
+}
+.parte2{
+    width: 100%;
+    padding-top: 5px;
+    text-align: justify;
+   
+}
+.p_desc{
+    font-size: 11pt;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-weight: 900;
+}
+.footer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    border-bottom: 1px solid white;
+    background-color: #020120;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    height: auto;
+    background-color: transparent;
+}
+.icones{
+    width: 30px;
+}
+.icones:hover{
+    transform: scale(1.1);
+    transition: 400ms linear;
+}
+.info{
+    width: 80%;
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+}
+.info2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10pt;
+    width: 100%;
+    height: 8vh;
+    background-color:#020120;
+    padding: 5px;
+}
+.pRodape{
+    font-size: 10pt;
+}
+#logo2{
+    width: 20%;
+    border-radius: 8px;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+/*-----------------Mobile :)------------------------------*/
+@media screen and (max-width:1053px) {
+
+    #computer{
+        width: 100%;
+    }
+    .top{
+        height: 50vh;
+    }
+    .social{
+        width: 15%;
+    }
+    h3{
+        font-size: 11pt;
+    }
+    p{
+        font-size: 10pt;
+    }
+}
+@media screen and (max-width:940px) {
+    .titulo{
+        font-size: 18pt;
+    }
+    #computer{
+        width: 100%;
+    }
+    .top{
+        height: 40vh;
+    }
+    
+}
+@media screen and (max-width:890px) {
+    .titulo{
+        font-size: 16pt;
+    }
+    .alunos{
+        width: 90%;
+    }
+    h3{
+        font-size: 12pt;
+    }
+    p{
+        font-size: 10pt;
+    }
+}
+@media screen and (max-width:769px) {
+    .titulo{
+        font-size: 14pt;
+    }
+    .right{
+        width: 70%;
+    }
+    .social{
+        width:20%;
+        padding-right:20px ;
+    }
+    h3{
+        font-size: 16pt;
+    }
+    p{
+        font-size: 14pt;
+    }
+    .alunos{
+        padding: 0px 5px 0px 5px;
+        margin: 0;
+        flex-direction: column;
+        
+    }
+    .coluna1{
+        width: 100%;
+        padding: 8px;
+    }
+    .coluna2{
+        width: 100%;
+        padding: 8px;
+    }
+   .imagem_cursos{
+    width: 70%;
+   }
+   #logo2{
+    width: 40%;
+ }
+}
+@media screen and (max-width:653px) {
+
+    .titulo{
+        font-size: 12pt;
+    }
+    #computer{
+        width: 100%;
+    }
+   
+}
+@media screen and (max-width:605px) {
+
+    .titulo{
+        font-size: 10pt;
+    }
+    .top{
+        height: 30vh;
+    }
+    #computer{
+        width: 100%;
+    }
+    .alunos{
+        width: 100%;
+    }
+    .topicos{
+        width: 40%;
+    }
+    .social{
+        width:30%;
+    }
+    #logo2{
+        width: 40%;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .navbar{
+        background-color: #0201209c;
+        border-bottom: solid 1px white;
+    }
+    .group1{
+        background-image: url("../img/mobile.avif");
+        background-position: center;
+        background-size: 500px;
+        background-repeat: no-repeat;
+    }
+    .top{
+        background-image: none;
+        padding-top: 0;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #0201209c;
+    }
+    .titulo{
+        font-size: 10pt;
+    }
+    .left{
+        width: 100%;
+        padding-top: 30px;
+    }
+    .right{
+        display: none;
+
+    }
+    .text{
+        font-size: 10pt;
+    }
+    .section{
+        padding: 0;
+    }
+    .topicos{
+        width: 90%;
+    }
+    .navbar{
+        padding-left: 5px;
+    }
+   
+}
+@media screen and (max-width: 475px) {
+ h3{
+    font-size: 12pt;
+ }
+ p{
+    font-size: 10pt;
+ }
+ .logo{
+    padding: 0;
+    margin: 0;
+ }
+ .social{
+    width:40%;
+}
+#logo2{
+    width: 60%;
+    }
+   
+}
+@media screen and (max-width: 345px) {
+  
+    .social{
+       width:60%;
+   }
+   #logo2{
+    width: 70%;
+    }  
+}
+/*-----------------height mobile----------------------------------------------------*/
+@media screen and (min-height: 800px) and (max-width: 475px){
+    .group1{
+        background-size: 600px;
+    }
+    .top{
+        height: 25vh;
+    }
+}
+
+
+
