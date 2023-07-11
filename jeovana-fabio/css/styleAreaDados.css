@@ -186,7 +186,7 @@ label{
     margin: 2px;
 }
 .nomeProjeto:hover{
-    background-color: #9998b327;
+    background-color: #060077;
 }
 .nomeProjeto:focus-within{
     background-color: #060077;
@@ -225,16 +225,7 @@ label{
     color: white;
     font-size: 11pt;
 }
-#psw{
-    background-color: #2b20fd
-}
 
-#pi{
-    background-color: #160dc7
-}
-#frelancer{
-    background-color: #0a0297
-}
 .hidden{
     display: none;
 }

@@ -119,7 +119,7 @@ label{
     margin: 2px;
 }
 .nomeProjeto:hover{
-    background-color: #9998b327;
+    border-bottom:solid 3px #ada6ff;
 }
 .nomeProjeto:focus-within{
     border-bottom:solid 3px #ada6ff;
