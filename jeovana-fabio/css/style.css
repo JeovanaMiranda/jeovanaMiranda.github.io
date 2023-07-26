@@ -257,6 +257,9 @@ a:visited{
     p{
         font-size: 10pt;
     }
+    #logoIF{
+        width: 10%;
+       }
 }
 @media screen and (max-width:940px) {
     .titulo{
@@ -321,6 +324,9 @@ a:visited{
    #logo2{
     width: 40%;
  }
+ #logoIF{
+    width: 15%;
+   }
 }
 @media screen and (max-width:653px) {
 
@@ -399,7 +405,9 @@ a:visited{
     .navbar{
         padding-left: 5px;
     }
-   
+   #logoIF{
+    width: 40%;
+   }
 }
 @media screen and (max-width: 475px) {
  h3{
