@@ -287,6 +287,9 @@ a:visited{
     .p_matricula{
         font-size: 10pt;
     }
+    .main{
+        font-size: 12pt;
+    }
 }
 @media screen and (max-width: 500px) {
     .novoProjeto{
