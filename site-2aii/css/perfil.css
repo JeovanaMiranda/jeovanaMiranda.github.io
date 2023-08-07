@@ -297,9 +297,6 @@ a:visited{
     .perfil{
         padding-left: 8px;
     }
-    #usuario{
-        width: 100%;
-    }
     .social{
         width: 30%;
     }
@@ -335,8 +332,12 @@ a:visited{
     .criar{
         width: 60%;
     }
+    .conteudo{
+        background-color: transparent;
+        width: 90%;
+    }
     #usuario{
-        width: 120%;
+        width: 70%;
     }
     #logo2{
         width: 60%;
@@ -345,12 +346,7 @@ a:visited{
         width: 150%;
     }
 }
-@media screen and (max-width: 400px) {
-    .social{
-        width: 40%;
-    }
 
-}
 @media screen and (max-width: 300px) {
     .perfil{
         width: 100%;
@@ -358,10 +354,8 @@ a:visited{
         padding-left: 30px;
     }
     #usuario{
-        width: 130%;
-    }
-    .social{
         width: 50%;
     }
+
  
 }

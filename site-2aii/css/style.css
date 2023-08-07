@@ -12,11 +12,9 @@ body {
 .group1{
     display: flex;
     flex-direction: column;
-    background-image: url("../img/mobile.avif");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 54vh;
-    background-position-y: -100px;
+    background-image: url("../img/fundo4.avif");
+    background-color:rgb(49, 54, 150);
+    height: 58vh;
 }
 .navbar{
     display: flex;
@@ -24,9 +22,9 @@ body {
     align-items: center;
     width: 100%;
     height:15%;
-    background-color: #0201209c;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px rgba(161, 164, 173, 0.76);
     color: white;
+    background-color:rgba(2, 22, 87, 0.897);
     padding-left: 20px;
 }
 .logo{
@@ -52,8 +50,7 @@ body {
   color: #fff;
   text-align: center;
   box-sizing: content-box;
-  background-color: transparent;
-   background-color: #0201209c;
+  background-color:rgba(2, 22, 87, 0.897);
 }
 .left{
     display: flex;
@@ -64,7 +61,7 @@ body {
     height: auto;
     background-color: transparent;
     padding-top: 10px;
-    padding-left: 15px;
+    padding-left: 30px;
 
 }
 .titulo{
@@ -77,16 +74,21 @@ body {
 }
 .text{
     width: 100%;
-    font-size: 12px;
+    font-size: 16px;
     text-align: left;
 }
 .right{
     display: flex;
+    justify-content: center;
     align-items: flex-end;
     width: 50%;
     height: auto;
-    background-color: transparent;
+    padding: 5px;
+    background-color:transparent;
    
+}
+#img_computer_topo{
+    width: 70%;
 }
 
 .section {
@@ -158,7 +160,6 @@ span{
     justify-content: center;
     flex-direction: column;
     width: 70%;
-
     
 }
 .img{
@@ -202,17 +203,17 @@ span{
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    padding: 10px;
+    padding: 25px;
     background-image: linear-gradient( to right, #28274e, #3f3d74);
 }
 .info{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 25;
+    height: 25vh;
     background-image: linear-gradient( to right, #28274e, #3f3d74);
     color: white;
-    padding-bottom: 25px;
+    padding: 15px;
     border-bottom: solid 1px white;
 }
 .imagem{
@@ -226,20 +227,22 @@ span{
 }
 .p_rodape{
     font-size: 11pt;
-    padding: 2px;
+    padding: 5px 0px 8px 0px;
 }
 
 .info_orientador{
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     width: 30%;
 }
 .text_info{
     width: auto;
+    text-align: center;
 }
 .contato{
     width: auto;
+
 }
 .info_desenvolvedor{
     width: 30%;
@@ -266,8 +269,9 @@ span{
     font-size: 10pt;
 }
 #logo2{
-    width: 60%;
+    width: 75%;
     border-radius: 8px;
+
 }
 a:link{
     text-decoration: none;
@@ -275,7 +279,7 @@ a:link{
 a:visited{
     text-decoration: none;
 }
-/*-----------------Mobile :)------------------------------*/
+/*-----------------Mobile :)------------------------------
 @media screen and (max-width:1053px) {
     .group1{
         height: 50vh;
@@ -482,6 +486,6 @@ a:visited{
         height: 25vh;
     }
 }
-
+*/
 
 
